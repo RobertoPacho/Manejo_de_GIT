@@ -8,7 +8,8 @@ public class Principal {
                 
 		System.out.println(logica.metodIntegranteUno());
                 
-        System.out.println(logica.metodIntegranteDos());
+		Logica logica2=new Logica(2, "Roberto", "Pacho");
+        System.out.println(logica2.metodIntegranteDos());
 
 	}
 
